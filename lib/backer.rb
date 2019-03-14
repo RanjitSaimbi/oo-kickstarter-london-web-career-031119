@@ -11,7 +11,6 @@ class Backer
   
   def back_project(roject) 
     @backed_projects << project
-    Project.backers << @backed_projects 
     binding.pry 
     "ghdg"
   end 
