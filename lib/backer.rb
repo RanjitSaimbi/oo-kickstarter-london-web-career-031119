@@ -9,8 +9,6 @@ class Backer
   def initialize(name)
     @name = name
     @backed_projects = []
-    binding.pry 
-    "ghdgd"
   end 
   
   def back_project(project) 
