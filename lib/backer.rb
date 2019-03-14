@@ -1,3 +1,5 @@
+binding.pry
+
 class Backer 
  attr_reader :name
  attr_accessor :backed_projects
@@ -9,7 +11,7 @@ class Backer
   
   def back_project(project) 
     @backed_projects << project
-    project.@backers << self 
+    project.@backers  
   end 
   
 end 
