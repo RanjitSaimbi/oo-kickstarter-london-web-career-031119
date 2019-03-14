@@ -9,7 +9,7 @@ class Backer
     @backed_projects = []
   end 
   
-  def back_project(roject) 
+  def back_project(project) 
     @backed_projects << project
     binding.pry 
     "ghdg"
