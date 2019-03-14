@@ -10,6 +10,7 @@ class Backer
     @name = name
     @backed_projects = []
     binding.pry 
+    "ghdgd"
   end 
   
   def back_project(project) 
