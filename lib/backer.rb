@@ -1,5 +1,4 @@
 require 'pry'
-require_relative '../lib/project'
 
 class Backer 
  attr_reader :name
@@ -13,6 +12,7 @@ class Backer
   
   def back_project(project) 
     @backed_projects << project
+    
   end 
   
 end 
